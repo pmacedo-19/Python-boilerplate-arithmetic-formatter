@@ -49,7 +49,7 @@ def arithmetic_arranger(problems, calc=None):
         # Split each string based on newline character '\n'
         separated_results = [result.split('\n') for result in results_list]
         
-        # Transpose the list to print each element in the first line and so on
+        # Transpose the list to add each element in the first line and so on
         transposed_results = ['    '.join(line) for line in zip(*separated_results)]
         
         # Add each line to the arranged_problems list
